@@ -12,7 +12,8 @@
         this.geoLocation = city
         this.partner = partner
         this.numkids = numkids
-        window.alert('You will be a ' + jobTitle + ' in ' + geoLocation + ' and married to ' +
+        this.fortune = function(){
+            window.alert('You will be a ' + jobTitle + ' in ' + geoLocation + ' and married to ' +
         partner + ' ' + ' with ' + numKids + ' kids.');
     }
         
